@@ -36,6 +36,7 @@ describe("ProductAdmFacade test", () => {
       name: "Product 1",
       description: "Product 1 description",
       purchasePrice: 10,
+      salesPrice: 20,
       stock: 10,
     };
 
@@ -57,6 +58,7 @@ describe("ProductAdmFacade test", () => {
       name: "Product 1",
       description: "Product 1 description",
       purchasePrice: 10,
+      salesPrice: 20,
       stock: 10,
     };
     await productFacade.addProduct(input);
